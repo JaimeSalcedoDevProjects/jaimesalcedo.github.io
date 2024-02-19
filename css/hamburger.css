@@ -1,0 +1,80 @@
+
+    /*js hamburger-button - show navigation toggle*/
+    .grid-nav.show-nav {
+        display: block;
+    }
+
+    /*hambuger-button*/
+    .header-hamburger-button {
+        background: black;
+        border: 10px solid green;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    /*bar*/
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: white;
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*grid-navigation*/
+    .grid-nav {
+        display: none;  /*js hamburger-button - the navigation meny is hidden by default*/
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /*grid-navigation*/
+    .grid-nav {
+        display: none;  /*js hamburger-button - the navigation meny is hidden by default*/
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*grid-navigation*/
+    .grid-nav {
+        display: none;  /*js hamburger-button - the navigation meny is hidden by default*/
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /*grid-navigation*/
+    .grid-nav {
+        display: block;  /*js hamburger-button - the navigation menu is shown by default*/
+    }
+    /*hambuger-button*/
+    .header-hamburger-button { /*hamburger button hidden*/
+        display: none;   
+    }
+    .bar{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /*grid-navigation*/
+    .grid-nav {
+        display: block;  /*js hamburger-button - the navigation meny is shown by default*/
+    }
+    /*hambuger-button*/
+    .header-hamburger-button { /*hamburger button hidden*/
+        display: none;
+    }
+    .bar{
+        display:none;
+    }
+
+}
+

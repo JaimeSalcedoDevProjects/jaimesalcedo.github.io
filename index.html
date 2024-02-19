@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/grid-systems.css">
+    <link rel="stylesheet" href="../css/hamburger.css">
+    <link rel="stylesheet" href="../css/header&nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Psychopath Projects 华语</title>
+</head>
+
+<body>
+    <div class="grid-skeleton">
+        <header class="grid-header"> 
+            
+            <div class="header-content">
+
+                <div class="header-content-section-1">
+                    <button class="header-hamburger-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+
+                <div class ="header-content-section-2">
+                    <div class="header-image">
+                        <img src="../imgs/logo.png" alt="logo">
+                    </div>
+                    <div class="header-paragraph">
+                        <p>ColorVerse 彩境坊</p>
+                    </div>
+                </div>
+
+            </div>
+    
+        </header>
+
+        <nav class="grid-nav">
+            <div class="nav-content">
+
+                <div class="nav-content-section-1">
+                    <div class="nav-image">
+                        <img src="../imgs/Avatar.png" alt="#">
+                    </div>
+                    <div class="nav-title">
+                        <h1>Jaime Salcedo</h1>
+                    </div>
+                    <div class="nav-paragraph">
+                        <p>Bilingual | Web Developer | Video Editor | Graphic Designer | Researcher | Administrator | Innovative | Available for New Roles | Sketch Artist | Graduate Student</p>
+                    </div>
+                    <ul class="nav-icon-list-1">
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa fa-paypal"></i></a></li>
+                        <li><a href="#"><i class="fa fa-user-secret	"></i></a></li>
+                    </ul>
+                </div>
+                <hr> 
+                <div class="nav-content-section-2">
+                    <ol class="nav-icon-list-2">
+                        <li><a href="#"><i class="fa fa-address-book-o"></i><span>About Me</span></a></li>
+                        <li><a href="#"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i><span>Services &amp; Pricing</span></a></li>
+                        <li><a href="#"><i class="fa fa-newspaper-o"></i><span>Resume</span></a></li>
+                        <li><a href="#"><i class="fa fa-resistance"></i><span>Blog</span></a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i><span>Contact</span></a></li>
+                    </ol>
+                </div>
+                <div class="nav-content-section-3">
+                    <ol class="nav-icon-list-3">
+                        <li><a href="#"><i class="fa fa-send"></i><span>Hire me</span></a></li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+
+        <main class="grid-main">
+            <div class="main-content">
+
+
+            </div>
+        </main>
+
+        <footer class="grid-footer">
+            <div class="footer-content">
+                @Jaime Salcedo All Rights Reserved
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const hamburgerButton = document.querySelector('.header-hamburger-button');
+        const nav = document.querySelector('.grid-nav');
+        const gridMain = document.querySelector('.grid-main');
+
+        hamburgerButton.addEventListener('click', () => {
+            nav.classList.toggle('show-nav');
+        });
+    </script>
+
+</body>
+</html>
